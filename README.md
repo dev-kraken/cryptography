@@ -15,7 +15,7 @@ PHP Cryptography 🔒
 **Cryptography is a method of protecting information and communications through the use of codes, so that only those for whom the information is intended can read and process it.**
 
 
-🚀 PHP Cryptography is a PHP version of the original [Dev Kraken](https://github.com/bkeepers/dotenv).
+🚀 PHP Cryptography is a PHP version of the original [Dev Kraken](https://github.com/dev-kraken/cryptography).
 
 
 ## 🔥Installation

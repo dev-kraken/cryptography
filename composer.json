@@ -1,0 +1,23 @@
+{
+    "name": "devkraken/cryptography",
+    "description": "Cryptography is a method of protecting information and communications through the use of codes, so that only those for whom the information is intended can read and process it.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dev Kraken",
+            "email": "somanbandesha.sb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.4.*",
+         "ext-openssl": "*",
+        "devcoder-xyz/php-dotenv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevKraken\\" : "src/"
+        }
+    }
+}

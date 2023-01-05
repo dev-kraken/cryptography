@@ -27,7 +27,7 @@ class Cryptography
         openssl_cipher_iv_length($ciphering);
         $options = 0;
 
-        $encryption_iv = 'RGV2IEtyYWtlbiBTb21hbg==';
+        $encryption_iv = 'RGV2IEtyYWtlbiBT';
 
         $encryption_key = $this->secret_Cryptography;
         return openssl_encrypt($this->encryptionString, $ciphering, $encryption_key, $options, $encryption_iv);
@@ -39,7 +39,7 @@ class Cryptography
 
         openssl_cipher_iv_length($ciphering);
         $options = 0;
-        $decryption_iv = "RGV2IEtyYWtlbiBTb21hbg==";
+        $decryption_iv = "RGV2IEtyYWtlbiBT";
 
         //Decryption_key
         $decryption_key = $this->secret_Cryptography;

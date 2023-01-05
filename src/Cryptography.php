@@ -39,6 +39,7 @@ class Cryptography
 
         openssl_cipher_iv_length($ciphering);
         $options = 0;
+        
         $decryption_iv = "RGV2IEtyYWtlbiBT";
 
         //Decryption_key

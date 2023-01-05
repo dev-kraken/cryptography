@@ -71,10 +71,12 @@ $cryptography = new Cryptography();
 //Encryption
 $cryptography->encryptionString = 'Your_String';
 echo $cryptography->encryption();
+// output : eQKe1EO8xVj0vdg=
 
 //Decryption
 $cryptography->decryptionString = $cryptography->encryption();
 echo $cryptography->decryption();
+// output : Your_String
 ```
 ## 👽License
 
